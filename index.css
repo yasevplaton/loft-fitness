@@ -1,4 +1,19 @@
+/* -------------- Fonts -------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic');
+
+@font-face {
+  font-family: 'Gora Free';
+  src: url('fonts/gora-free-webfont.woff2') format('woff2'),
+       url('fonts/gora-free-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ----------- Color palette -------------- */
+
 :root {
   --dark-grey: #131415;
 }
@@ -10,6 +25,10 @@ html, body {
   margin: 0;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul {
   padding: 0;
 }
@@ -19,8 +38,12 @@ ul li {
 }
 
 .container {
-  max-width: 1100px;
+  width: 1065px;
   margin: 0 auto;
+}
+
+.logo {
+  font-family: "Gora Free", serif;
 }
 
 /* ----------- Header styles --------------- */
@@ -94,6 +117,9 @@ ul li {
 }
 
 /* News section */
+.news {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
 
 .latest-news-list {
   display: inline-block;
