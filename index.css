@@ -110,6 +110,7 @@ ul li {
   background: none;
   color: inherit;
   border: none;
+  padding: 0;
 }
 
 /* --------------- Main content styles --------------- */
@@ -129,7 +130,8 @@ ul li {
 
 .banner {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 79px;
+  padding-bottom: 58px;
 }
 
 /* Features section */
@@ -168,6 +170,7 @@ ul li {
 .features__list {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .features__item {
@@ -177,15 +180,33 @@ ul li {
 }
 
 /* News section */
+
 .news {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
+/* Latest news */
 
 .latest-news-list {
   display: inline-block;
   width: 80%;
   vertical-align: top;
 }
+
+.latest-news-item__img {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+}
+
+.latest-news-item__content {
+  display: inline-block;
+  width: 79%;
+}
+
+
+/* Aside top news */
 
 .top-news {
   display: inline-block;
