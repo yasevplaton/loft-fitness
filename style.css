@@ -59,6 +59,7 @@ a {
   font-family: "Gora Free", serif;
   font-size: 18px;
   color: var(--orange);
+  letter-spacing: 1.8px;
 }
 
 /* #endregion */
@@ -84,7 +85,6 @@ a {
   display: inline-block;
   position: absolute;
   top: 31px;
-  left: 19px;
 }
 /* #endregion */
 
@@ -94,8 +94,8 @@ a {
 .menu {
   display: inline-block;
   position: absolute;
-  left: 33%;
-  top: 35px;
+  left: 31%;
+  top: 29px;
 }
 
 .menu__item {
@@ -103,8 +103,33 @@ a {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  margin-left: 27px;
   letter-spacing: 1.2px;
+}
+
+.menu__item-link {
+  color: inherit;
+  text-decoration: inherit;
+  margin-left: 25px;
+}
+
+.menu__item-link--active {
+  color: #f89513;
+}
+
+.menu__item-link--main.menu__item-link--active:before {
+  background-image: url('data/icons/main-page-icon_hover.png');
+}
+
+.menu__item-link--reviews.menu__item-link--active:before {
+  background-image: url('data/icons/reviews-page-icon_hover.png');
+}
+
+.menu__item-link--services.menu__item-link--active:before {
+  background-image: url('data/icons/service-page-icon_hover.png');
+}
+
+.menu__item-link:not(.menu__item-link--active):hover {
+  color: #f89513;
 }
 
 .menu__item-link:before {
@@ -129,9 +154,16 @@ a {
   background-image: url('data/icons/service-page-icon.png');
 }
 
-.menu__item-link {
-  color: inherit;
-  text-decoration: inherit;
+.menu__item-link--main:not(.menu__item-link--active):hover:before {
+  background-image: url('data/icons/main-page-icon_hover.png');
+}
+
+.menu__item-link--reviews:not(.menu__item-link--active):hover:before {
+  background-image: url('data/icons/reviews-page-icon_hover.png');
+}
+
+.menu__item-link--services:not(.menu__item-link--active):hover:before {
+  background-image: url('data/icons/service-page-icon_hover.png');
 }
 /* #endregion */
 
@@ -141,8 +173,8 @@ a {
 .contacts {
   display: inline-block;
   position: absolute;
-  right: 5px;
   top: 13px;
+  right: 0;
   text-align: right;
 }
 
@@ -157,13 +189,16 @@ a {
 
 .contacts__schedule {
   background: none;
-  color: inherit;
   border: none;
-  padding: 0;
   font-size: 14px;
-  color: rgba(248, 149, 19, 0.7);
+  color: rgba(248, 149, 19, 0.8);
   font-weight: bold;
   text-decoration: underline;
+  font-family: inherit;
+}
+
+.contacts__schedule:hover {
+  color: #ffffff;
 }
 /* #endregion */
 
@@ -183,8 +218,8 @@ a {
   font-weight: bold;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 47px;
+  margin-bottom: 48px;
 }
 
 /* #endregion */
@@ -216,7 +251,7 @@ a {
 }
 
 .features__item {
-  line-height: 2em;
+  line-height: 1.88em;
   text-align: center;
   font-size: 18px;
   display: inline-block;
@@ -249,32 +284,33 @@ a {
   font-weight: 800;
   letter-spacing: 2.6px;
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 29px;
 }
 
 .features__desc {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .features__desc-item {
   list-style-type: disc;
   text-align: left;
   margin-left: 20%;
+  padding-left: 12px;
 }
 
 /* #endregion */
 
 
 /* News section */
-/* #region */
-.news {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-/* #endregion */
 
 
 /* Latest news */
 /* #region */
+
+.latest-news {
+  margin-top: 67px;
+}
+
 .latest-news-list {
   display: inline-block;
   width: 80%;
@@ -290,21 +326,22 @@ a {
 }
 
 .latest-news-item {
-  padding-bottom: 30px;
-  margin-left: 20px;
+  padding-bottom: 23px;
 }
 
 .latest-news-item__img {
   border-radius: 50%;
   display: inline-block;
   vertical-align: top;
-  width: 20%;
+  width: 160px;
+  height: 160px;
 }
 
 .latest-news-item__content {
   display: inline-block;
-  width: 70%;
+  width: 78%;
   margin-left: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .latest-news-item__time {
@@ -316,15 +353,18 @@ a {
 .latest-news-item__title {
   font-size: 18px;
   color: #221f1f;
-  font-style: bold;
-  margin-top: 14px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  line-height: 21px;
 }
 
 .latest-news-item__text {
   font-size: 18px;
   color: #221f1f;
   font-style: normal;
-  margin-top: 22px;
+  line-height: 30px;
+  margin-top: 2px;
 }
 /* #endregion */
 
@@ -335,7 +375,7 @@ a {
   display: inline-block;
   width: 15%;
   vertical-align: top;
-  margin-left: 30px;
+  margin-left: 48px;
 }
 
 .top-news__title {
@@ -344,6 +384,8 @@ a {
   font-weight: bold;
   font-size: 12px;
   color: #221f1f;
+  line-height: 21px;
+  letter-spacing: 2.4px;
 }
 
 .top-news__time {
@@ -363,7 +405,8 @@ a {
 /* Pagination */
 /* #region */
 .pagination {
-  margin-left: 35%;
+  margin-left: 34%;
+  margin-top: 43px;
 }
 
 .pagination__display,
@@ -389,6 +432,10 @@ a {
   text-align: center;
 }
 
+.pagination__item:hover {
+  color: #f89513;
+}
+
 .pagination__item--active {
   background: #27273e;
   border-radius: 3px;
@@ -405,6 +452,7 @@ a {
 
 .pagination__controlls {
   min-width: 300px;
+  margin-left: -6px;
 }
 
 .pagination__prev {
@@ -436,6 +484,7 @@ a {
   background-color: var(--dark-grey);
   color: var(--white);
   margin-top: 71px;
+  margin-top: 63px;
 }
 
 .footer__container {
@@ -447,9 +496,9 @@ a {
 /* #region */
 .rights {
   position: absolute;
-  left: 19px;
+  left: 0;
   max-width: 250px;
-  top: 14px;
+  top: 9px;
 }
 
 .rights__content {
@@ -460,14 +509,18 @@ a {
 .rights__link {
   font-weight: bold;
 }
+
+.rights__link--underline {
+  text-decoration: underline;
+}
 /* #endregion */
 
 /* Logo */
 /* #region */
 .footer__logo {
   position: absolute;
-  left: 40%;
-  top: 30px;
+  left: 42.5%;
+  top: 26px;
 }
 /* #endregion */
 
@@ -477,8 +530,8 @@ a {
 
 .socials {
   position: absolute;
-  right: 5px;
-  top: 20px;
+  right: 0;
+  top: 13px;
 }
 
 .socials__title {
@@ -491,8 +544,7 @@ a {
 }
 
 .socials-item {
-  display: inline-block;
-  vertical-align: middle;
+  float: left;
 }
 
 .socials-item:not(:first-child) {
@@ -506,7 +558,7 @@ a {
   border-radius: 50%;
 }
 
-.socials-item__icon--active {
+.socials-item__icon:hover {
   background-color: #f89513;
 }
 
@@ -528,6 +580,10 @@ a {
 
 .socials-item__icon--mail {
   background-image: url(data/icons/mail.png);
+}
+
+.socials-item:last-child::after {
+  clear: both;
 }
 
 /* #endregion */
