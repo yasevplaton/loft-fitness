@@ -19,14 +19,14 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <div href="#" class="menu__item-link menu__item-link--active">Главная</div>
+                <div href="#" class="menu__item-link menu__item-link--active menu__item-link--main">Главная</div>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__item-link">Отзывы
+                <a href="#" class="menu__item-link menu__item-link--reviews">Отзывы
                 </a>
               </li>
               <li class="menu__item">
-                <a href="#" class="menu__item-link">Услуги
+                <a href="#" class="menu__item-link menu__item-link--services">Услуги
                 </a>
               </li>
             </ul>
@@ -39,15 +39,15 @@
       </header>
 
       <main class="page">
-        <div class="container">
-          <section class="section banner">
-            <img src="data/img/banner.png" alt="Banner">
-          </section>
-          <section class="section features">
+        <section class="section banner">
+          <img src="data/img/banner.png" alt="Banner">
+        </section>
+        <section class="section features">
+          <div class="container">
             <h2 class="section__title">Особенности</h2>
             <ul class="features__list">
               <li class="features__item">
-                <div class="features__icon"></div>
+                <div class="features__icon features__icon--uniqueness"></div>
                 <h3 class="features__title">Уникальность</h3>
                 <div class="features__desc">Мы делаем все для вашего комфорта</div>
                 <ul class="features__desc-list">
@@ -57,7 +57,7 @@
                 </ul>
               </li>
               <li class="features__item">
-                <div class="features__icon"></div>
+                <div class="features__icon features__icon--premium-class"></div>
                 <h3 class="features__title">Премиум-класс</h3>
                 <div class="features__desc">Наш зал оборудован тренажёрами А-класса</div>
                 <ul class="features__desc-list">
@@ -67,7 +67,7 @@
                 </ul>
               </li>
               <li class="features__item">
-                <div class="features__icon"></div>
+                <div class="features__icon features__icon--coach"></div>
                 <h3 class="features__title">Личный тренер</h3>
                 <div class="features__desc">Тренер сделает всё для вашего результата</div>
                 <ul class="features__desc-list">
@@ -77,7 +77,9 @@
                 </ul>
               </li>
             </ul>
-          </section>
+          </div>
+        </section>
+        <div class="container">
           <section class="section news">
             <h2 class="section__title">Последние новости</h2>
             <div class="latest-news">
@@ -95,7 +97,6 @@
                       кислорода. Это крайне важно для каждого начинающего атлета.</p>
                   </div>
                 </li>
-                <hr>
                 <li class="latest-news-item">
                   <img src="data/img/news/latest-news-2.jpg" class="latest-news-item__img" alt="Second news icon">
                   <div class="latest-news-item__content">
@@ -108,7 +109,6 @@
                       предлагаем испытать это уже сегодня!</p>
                   </div>
                 </li>
-                <hr>
                 <li class="latest-news-item">
                   <img src="data/img/news/latest-news-3.jpg" class="latest-news-item__img" alt="Third news icon">
                   <div class="latest-news-item__content">
@@ -130,17 +130,17 @@
                 <ul class="top-news__list">
                   <li class="top-news__item">
                     <a href="#" class="top-news__link">
-                      <img src="" class="top-news__img" alt="">
+                      <img src="data/img/news/top-news-1.jpg" class="top-news__img" alt="">
                     </a>
                   </li>
                   <li class="top-news__item">
                     <a href="#" class="top-news__link">
-                      <img src="" class="top-news__img" alt="">
+                      <img src="data/img/news/top-news-2.jpg" class="top-news__img" alt="">
                     </a>
                   </li>
                   <li class="top-news__item">
                     <a href="#" class="top-news__link">
-                      <img src="" class="top-news__img" alt="">
+                      <img src="data/img/news/top-news-3.jpg" class="top-news__img" alt="">
                     </a>
                   </li>
                 </ul>
@@ -148,10 +148,10 @@
               <div class="pagination">
                 <div class="pagination__display">Страница 1 из 7</div>
                 <div class="pagination__controlls">
-                  <a href="" class="pagination__prev">&lt</a>
+                  <a class="pagination__prev"></a>
                   <ul class="pagination__list">
-                    <li class="pagination__item">
-                      <a href="#" class="pagination__link">1</a>
+                    <li class="pagination__item pagination__item--active">
+                      <a class="pagination__link">1</a>
                     </li>
                     <li class="pagination__item">
                       <a href="#" class="pagination__link">2</a>
@@ -172,7 +172,7 @@
                       <a href="#" class="pagination__link">7</a>
                     </li>
                   </ul>
-                  <a href="" class="pagination__next">&gt</a>
+                  <a href="#" class="pagination__next"></a>
                 </div>
               </div>
             </div>
@@ -183,8 +183,8 @@
       <footer class="footer">
         <div class="container footer__container">
           <div class="rights">
-            <p class="rights__content">Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool. Автор работы:
-              Ясев Платон</p>
+            <p class="rights__content">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="rights__link">LoftSchool</a>.
+              Автор работы: <a href="#" class="rights__link">Ясев Платон</a></p>
           </div>
           <div href="#" class="logo footer__logo">Афродита</div>
           <div class="socials">
@@ -192,27 +192,27 @@
             <ul class="socials-list">
               <li class="socials-item">
                 <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon"></div>
+                  <div class="socials-item__icon socials-item__icon--active socials-item__icon--vk"></div>
                 </a>
               </li>
               <li class="socials-item">
                 <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon"></div>
+                  <div class="socials-item__icon socials-item__icon--fb"></div>
                 </a>
               </li>
               <li class="socials-item">
                 <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon"></div>
+                  <div class="socials-item__icon  socials-item__icon--google"></div>
                 </a>
               </li>
               <li class="socials-item">
                 <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon"></div>
+                  <div class="socials-item__icon  socials-item__icon--twitter"></div>
                 </a>
               </li>
               <li class="socials-item">
                 <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon"></div>
+                  <div class="socials-item__icon socials-item__icon--mail"></div>
                 </a>
               </li>
             </ul>
