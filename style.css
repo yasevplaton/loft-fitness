@@ -41,6 +41,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.wrapper {
+  overflow: hidden;
+  min-width: 1100px;
+}
+
 ul li {
   list-style-type: none;
 }
@@ -76,30 +81,26 @@ a {
 
 .header__container {
   min-height: 77px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Logo */
 /* #region */
-.header__logo {
-  display: inline-block;
-  position: absolute;
-  top: 31px;
-}
+
 /* #endregion */
 
 
 /* Menu */
 /* #region */
 .menu {
-  display: inline-block;
-  position: absolute;
-  left: 31%;
-  top: 29px;
+  text-align: center;
 }
 
 .menu__item {
   display: inline-block;
+  vertical-align: middle;
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
@@ -171,10 +172,6 @@ a {
 /* Contacts */
 /* #region */
 .contacts {
-  display: inline-block;
-  position: absolute;
-  top: 13px;
-  right: 0;
   text-align: right;
 }
 
@@ -405,7 +402,7 @@ a {
 /* Pagination */
 /* #region */
 .pagination {
-  margin-left: 34%;
+  text-align: center;
   margin-top: 43px;
 }
 
@@ -488,17 +485,16 @@ a {
 }
 
 .footer__container {
-  position: relative;
   min-height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Rights */
 /* #region */
 .rights {
-  position: absolute;
-  left: 0;
   max-width: 250px;
-  top: 9px;
 }
 
 .rights__content {
@@ -517,22 +513,11 @@ a {
 
 /* Logo */
 /* #region */
-.footer__logo {
-  position: absolute;
-  left: 42.5%;
-  top: 26px;
-}
 /* #endregion */
 
 
 /* Socials */
 /* #region */
-
-.socials {
-  position: absolute;
-  right: 0;
-  top: 13px;
-}
 
 .socials__title {
   font-size: 14px;
