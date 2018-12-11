@@ -1,0 +1,72 @@
+.menu {
+  text-align: center;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.menu__item-link {
+  color: inherit;
+  text-decoration: inherit;
+  margin-left: 25px;
+}
+
+.menu__item-link--active {
+  color: #f89513;
+}
+
+.menu__item-link--main.menu__item-link--active:before {
+  background-image: url('../../data/icons/main-page-icon_hover.png');
+}
+
+.menu__item-link--reviews.menu__item-link--active:before {
+  background-image: url('../../data/icons/reviews-page-icon_hover.png');
+}
+
+.menu__item-link--services.menu__item-link--active:before {
+  background-image: url('../../data/icons/service-page-icon_hover.png');
+}
+
+.menu__item-link:not(.menu__item-link--active):hover {
+  color: #f89513;
+}
+
+.menu__item-link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background: center center no-repeat;
+  margin-right: 18px;
+}
+
+.menu__item-link--main:before {
+  background-image: url('../../data/icons/main-page-icon.png');
+}
+
+.menu__item-link--reviews:before {
+  background-image: url('../../data/icons/reviews-page-icon.png');
+}
+
+.menu__item-link--services:before {
+  background-image: url('../../data/icons/service-page-icon.png');
+}
+
+.menu__item-link--main:not(.menu__item-link--active):hover:before {
+  background-image: url('../../data/icons/main-page-icon_hover.png');
+}
+
+.menu__item-link--reviews:not(.menu__item-link--active):hover:before {
+  background-image: url('../../data/icons/reviews-page-icon_hover.png');
+}
+
+.menu__item-link--services:not(.menu__item-link--active):hover:before {
+  background-image: url('../../data/icons/service-page-icon_hover.png');
+}

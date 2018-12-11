@@ -1,0 +1,17 @@
+@import url('layout/normalize.css');
+@import url('layout/fonts.css');
+@import url('layout/base.css');
+
+@import url('blocks/header.css');
+@import url('blocks/logo.css');
+@import url('blocks/menu.css');
+@import url('blocks/contacts.css');
+@import url('blocks/banner.css');
+@import url('blocks/section-title.css');
+@import url('blocks/features.css');
+@import url('blocks/latest-news.css');
+@import url('blocks/top-news.css');
+@import url('blocks/pagination.css');
+@import url('blocks/footer.css');
+@import url('blocks/rights.css');
+@import url('blocks/socials.css');

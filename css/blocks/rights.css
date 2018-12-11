@@ -1,0 +1,16 @@
+.rights {
+  max-width: 250px;
+}
+
+.rights__content {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.rights__link {
+  font-weight: bold;
+}
+
+.rights__link--underline {
+  text-decoration: underline;
+}

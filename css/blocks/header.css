@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
+
+.header__container {
+  min-height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

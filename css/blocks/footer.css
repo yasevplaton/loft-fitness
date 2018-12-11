@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--dark-grey);
+  color: var(--white);
+  margin-top: 71px;
+  margin-top: 63px;
+}
+
+.footer__container {
+  min-height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
