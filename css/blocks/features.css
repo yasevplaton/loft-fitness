@@ -8,15 +8,18 @@
   width: 80%;
   margin: 0 auto;
   margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
 }
 
 .features__item {
   line-height: 1.88em;
   text-align: center;
   font-size: 18px;
-  display: inline-block;
+  /* display: inline-block; */
   max-width: 33%;
-  vertical-align: top;
 }
 
 .features__icon {

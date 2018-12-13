@@ -1,11 +1,12 @@
 .latest-news {
   margin-top: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .latest-news-list {
-  display: inline-block;
   width: 80%;
-  vertical-align: top;
 }
 
 .latest-news-item:not(:last-child) {
@@ -18,18 +19,16 @@
 
 .latest-news-item {
   padding-bottom: 23px;
+  display: flex;
 }
 
 .latest-news-item__img {
   border-radius: 50%;
-  display: inline-block;
-  vertical-align: top;
   width: 160px;
   height: 160px;
 }
 
 .latest-news-item__content {
-  display: inline-block;
   width: 78%;
   margin-left: 20px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
