@@ -3,7 +3,7 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 90%;
 }
 
@@ -31,6 +31,9 @@
   width: 25px;
   height: 25px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination__item:not(.pagination__item--active):hover {
@@ -59,7 +62,7 @@
   width: 6px;
   height: 10px;
   background: url('../../data/icons/prev-arrow.png') center center no-repeat;
-  margin-top: 3px;
+  margin-top: 8px;
   margin-left: 20px;
 }
 
@@ -67,5 +70,5 @@
   width: 6px;
   height: 10px;
   background: url('../../data/icons/next-arrow.png') center center no-repeat;
-  margin-top: 3px;
+  margin-top: 8px;
 }
