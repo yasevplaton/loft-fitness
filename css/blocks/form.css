@@ -1,0 +1,93 @@
+.form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.form {
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  padding: 69px 52px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form__title {
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.form__user-info,
+.form__review-text,
+.form__add-info {
+  margin-top: 20px;
+}
+
+.form__user-info-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__label,
+.form__input-text,
+.form__textarea {
+  display: block;
+}
+
+.form__input-text:focus,
+.form__textarea:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  border: 1px solid #f89513;
+}
+
+.form__label,
+.form__photo-info-title {
+  font-size: 14px;
+  font-weight: 300;
+  color: #221f1f;
+}
+
+.form__input-text {
+  width: 269px;
+  border-radius: 3px;
+  padding: 15px 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+.form__textarea {
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  resize: none;
+}
+
+.form__add-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__photo-info-content {
+  display: flex;
+  margin-top: 10px;
+}
+
+.form__submit-btn {
+  font-size: 12px;
+  font-weight: bold;
+  width: 125px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #1c1f1d;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}

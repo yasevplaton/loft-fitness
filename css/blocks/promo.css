@@ -1,0 +1,15 @@
+.promo {
+  background-image: url('/data/img/promo-bg.png');
+  margin-top: 60px;
+}
+
+.promo__text {
+  color: #ffffff;
+  font-weight: 300;
+  padding: 30px 190px;
+}
+
+.promo__text--emphasize {
+  font-weight: bold;
+  color: #f89513;
+}
