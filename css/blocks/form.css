@@ -8,11 +8,12 @@
 .form {
   border-radius: 3px;
   background-color: #f5f5f5;
-  padding: 69px 52px;
+  padding: 35px 66px;
   width: 700px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding-bottom: 47px;
 }
 
 .form__title {
@@ -23,7 +24,7 @@
 .form__user-info,
 .form__review-text,
 .form__add-info {
-  margin-top: 20px;
+  margin-top: 11px;
 }
 
 .form__user-info-list {
@@ -73,6 +74,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 21px;
 }
 
 .form__photo-info-content {
@@ -90,4 +92,8 @@
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+}
+
+.form__submit-btn:hover {
+  background-color: #f89513;
 }

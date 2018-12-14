@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-left: 111px;
+  margin-left: 90px;
+  width: 83%;
 }
 
 .reviews-item:not(:last-child) {
@@ -32,7 +33,6 @@
 
 .reviews-item__content {
   margin-left: 20px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .reviews-item__time {
@@ -53,7 +53,7 @@
 .reviews-item__text {
   font-size: 18px;
   color: #221f1f;
-  font-style: normal;
+  font-weight: 300;
   line-height: 30px;
   margin-top: 2px;
 }

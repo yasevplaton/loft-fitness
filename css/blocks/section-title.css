@@ -10,4 +10,6 @@
 
 .section-title--left-align {
   text-align: left;
+  margin-top: 4px;
+  margin-bottom: 33px;
 }

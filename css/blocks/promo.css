@@ -1,12 +1,13 @@
 .promo {
   background-image: url('/data/img/promo-bg.png');
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .promo__text {
   color: #ffffff;
   font-weight: 300;
-  padding: 30px 190px;
+  padding: 24px 190px;
+  line-height: 1.67;
 }
 
 .promo__text--emphasize {

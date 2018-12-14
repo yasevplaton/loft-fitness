@@ -1,10 +1,11 @@
 .breadcrumbs {
-  margin-left: 111px;
-  margin-top: 45px;
+  margin-left: 93px;
+  margin-top: 42px;
 }
 
 .breadcrumbs__list {
   display: flex;
+  width: 90%;
 }
 
 .breadcrumbs__link {
