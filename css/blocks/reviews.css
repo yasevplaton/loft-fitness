@@ -27,7 +27,7 @@
 
 .reviews-item__img--default {
   flex: 1 0 160px;
-  background: url('/data/img/reviews/default-avatar.png') center center no-repeat;
+  background: url('../../data/img/reviews/default-avatar.png') center center no-repeat;
   background-color: #f5f5f5;
 }
 
