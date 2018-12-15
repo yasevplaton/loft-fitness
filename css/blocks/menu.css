@@ -1,10 +1,8 @@
-.menu {
-  text-align: center;
+.menu__list {
+  display: flex;
 }
 
 .menu__item {
-  display: inline-block;
-  vertical-align: middle;
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
