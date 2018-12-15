@@ -5,10 +5,7 @@
 
 .socials-list {
   margin-top: 8px;
-}
-
-.socials-item {
-  float: left;
+  display: flex;
 }
 
 .socials-item:not(:first-child) {

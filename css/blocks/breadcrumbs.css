@@ -13,10 +13,12 @@
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
+  text-decoration: underline;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {
   color: #000;
+  text-decoration: none;
 }
 
 .breadcrumbs__item--active:after {
