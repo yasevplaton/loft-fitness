@@ -1,6 +1,6 @@
 .services {
   margin-left: 90px;
-  width: 83%;
+  width: 89%;
 }
 
 .services__list {
@@ -10,19 +10,21 @@
 
 .services__item {
   flex: 1 0 250px;
+  margin-bottom: 62px;
 }
 
 .services__img-wrapper {
   position: relative;
   width: 250px;
   height: 153px;
+  margin-bottom: 28px;
 }
 
 .services__img {
   width: inherit;
   height: inherit;
   background: center center no-repeat;
-  filter: brightness(20%);
+  filter: brightness(40%);
   border-radius: 3px;
 }
 
@@ -65,10 +67,12 @@
 
 .services__img-wrapper:hover .services__img-heading {
   display: none;
+  transition: 1s;
 }
 
 .services__img-wrapper:hover .services__img {
   filter: none;
+  transition: 1s;
 }
 
 .services__content {
@@ -79,6 +83,7 @@
 .services__title {
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .services__desc {

@@ -1,24 +1,31 @@
 .partners {
   margin-left: 90px;
-  width: 83%;
+  width: 89%;
+  margin-top: -25px;
+  margin-bottom: -30px;
 }
 
 .partners__list {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 38px;
 }
 
 .partners__item {
   flex: 1 0 250px;
+  margin-bottom: 50px;
+}
+
+.partners__link {
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.partners__link {
-  filter: grayscale(100%);
-}
-
 .partners__link:hover {
   filter: none;
+  transition: 1s;
 }
