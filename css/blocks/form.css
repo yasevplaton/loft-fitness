@@ -39,10 +39,15 @@
 }
 
 .form__input-text:focus,
-.form__textarea:focus {
+.form__textarea:focus,
+.form__radio-item:focus {
   outline-style: none;
   box-shadow: none;
   border-color: transparent;
+}
+
+.form__input-text:focus,
+.form__textarea:focus {
   border: 1px solid #f89513;
 }
 
@@ -86,12 +91,6 @@
   display: flex;
   margin-right: 23px;
   cursor: pointer;
-}
-
-.form__radio-item:focus {
-  outline-style: none;
-  box-shadow: none;
-  border-color: transparent;
 }
 
 .form__input-radio {
