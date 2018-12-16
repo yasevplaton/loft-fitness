@@ -1,0 +1,70 @@
+.services {
+  margin-left: 90px;
+  width: 83%;
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  flex: 1 0 250px;
+  padding-right: 35px;
+}
+
+.services__img {
+  width: 250px;
+  height: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: center center no-repeat;
+  border-radius: 3px;
+}
+
+.services__img--fitness {
+  background-image: url('../../data/img/services/fitness.jpg');
+}
+
+.services__img--nutritionist {
+  background-image: url('../../data/img/services/nutritionist.jpg');
+}
+
+.services__img--yoga {
+  background-image: url('../../data/img/services/yoga.jpg');
+}
+
+.services__img--trx {
+  background-image: url('../../data/img/services/trx.jpg');
+}
+
+.services__img--crossfit {
+  background-image: url('../../data/img/services/crossfit.jpg');
+}
+
+.services__img--pool {
+  background-image: url('../../data/img/services/pool.jpg');
+}
+
+.services__img-heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.services__content {
+  color: #221f1f;
+}
+
+.services__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.services__desc {
+  font-size: 14px;
+  font-weight: 300;
+}
