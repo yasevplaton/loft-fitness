@@ -23,9 +23,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .5s;
 }
 
 .partners__link:hover {
   filter: none;
-  transition: 1s;
 }

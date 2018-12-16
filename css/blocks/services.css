@@ -26,6 +26,7 @@
   background: center center no-repeat;
   filter: brightness(40%);
   border-radius: 3px;
+  transition: .5s;
 }
 
 .services__img--fitness {
@@ -63,15 +64,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 70%;
+  transition: .5s;
 }
 
 .services__img-wrapper:hover .services__img-heading {
-  display: none;
+  opacity: 0;
 }
 
 .services__img-wrapper:hover .services__img {
   filter: none;
-  transition: 1s;
 }
 
 .services__content {
