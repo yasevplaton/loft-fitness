@@ -67,7 +67,6 @@
 
 .services__img-wrapper:hover .services__img-heading {
   display: none;
-  transition: 1s;
 }
 
 .services__img-wrapper:hover .services__img {
