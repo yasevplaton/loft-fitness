@@ -24,3 +24,39 @@
 .contacts__schedule:hover {
   color: #ffffff;
 }
+
+.contacts__dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__dropdown:hover .contacts__dropdown-item {
+  top: 100%;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.contacts__dropdown-item {
+  width: 163px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 #173b758c;
+  background: #ffffff;
+  font-style: normal;
+  text-align: left;
+  font-size: 14px;
+  padding: 20px 17px;
+  position: absolute;
+  right: 0%;
+  top: -99999px;
+  opacity: 0;
+}
+
+.contacts__weekdays-time {
+  font-weight: bold;
+  color: #f89513;
+}
+
+.contacts__dinner-time {
+  font-weight: 300;
+  color: #221f1f;
+}
