@@ -11,7 +11,7 @@
   font-style: normal;
 }
 
-.contacts__schedule {
+.contacts__schedule-link {
   background: none;
   border: none;
   font-size: 14px;
@@ -21,22 +21,22 @@
   font-family: inherit;
 }
 
-.contacts__schedule:hover {
+.contacts__schedule-link:hover {
   color: #ffffff;
 }
 
-.contacts__dropdown {
+.contacts__dropdown-schedule {
   position: relative;
   display: inline-block;
 }
 
-.contacts__dropdown:hover .contacts__dropdown-item {
+.contacts__dropdown-schedule:hover .contacts__dropdown-body {
   top: 100%;
   opacity: 1;
   transition: opacity .3s;
 }
 
-.contacts__dropdown-item {
+.contacts__dropdown-body {
   width: 163px;
   border-radius: 3px;
   box-shadow: 0 0 10px 0 #173b758c;
