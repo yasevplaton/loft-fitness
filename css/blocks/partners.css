@@ -1,8 +1,9 @@
 .partners {
-  margin-left: 90px;
-  width: 89%;
-  margin-top: -25px;
-  margin-bottom: -30px;
+  border: 1px solid gray;
+  padding-top: 27px;
+  margin-bottom: 30px;
+  width: 90%;
+  align-self: center;
 }
 
 .partners__list {
@@ -12,7 +13,7 @@
 }
 
 .partners__item {
-  flex: 1 0 250px;
+  flex: 1 0 200px;
   margin-bottom: 50px;
 }
 

@@ -18,6 +18,22 @@
         <header class="header">
           <div class="container header__container">
             <a href="main.html" class="logo header__logo">Афродита</a>
+            <address class="contacts">
+              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
+              <div class="contacts__dropdown-schedule">
+                <button class="contacts__schedule-link">График работы</button>
+                <div class="contacts__dropdown-body">
+                  <p class="contacts__weekdays-time">пн-вс: 09:00-20:00</p>
+                  <p class="contacts__dinner-time">обед: 14:00-14:30
+                  </p>
+                </div>
+              </div>
+            </address>
+          </div>
+        </header>
+
+        <div class="container container--main-content">
+          <aside class="aside-content">
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
@@ -33,22 +49,46 @@
                 </li>
               </ul>
             </nav>
-            <address class="contacts">
-              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-              <div class="contacts__dropdown-schedule">
-                <button class="contacts__schedule-link">График работы</button>
-                <div class="contacts__dropdown-body">
-                  <p class="contacts__weekdays-time">пн-вс: 09:00-20:00</p>
-                  <p class="contacts__dinner-time">обед: 14:00-14:30
-                  </p>
-                </div>
-              </div>
-            </address>
-          </div>
-        </header>
-
-        <main class="page">
-          <div class="container">
+            <div class="promo">
+              <p class="promo__text">
+                Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
+                психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для
+                проведения массовых мероприятий. <span class="promo__text--emphasize">Ждем ваших заявок!</span>
+              </p>
+            </div>
+            <section class="socials">
+              <h3 class="socials__title">Наши социальные сети</h3>
+              <ul class="socials-list">
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon socials-item__icon--active socials-item__icon--vk"></div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon socials-item__icon--fb"></div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon socials-item__icon--google">
+                    </div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon  socials-item__icon--twitter"></div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon socials-item__icon--mail"></div>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </aside>
+          <main class="page-content">
             <div class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
@@ -145,61 +185,53 @@
                 </div>
               </div>
             </section>
-          </div>
-          <div class="promo">
-            <div class="container">
-              <p class="promo__text">
-                Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров,
-                психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для
-                проведения массовых мероприятий. <span class="promo__text--emphasize">Ждем ваших заявок!</span>
-              </p>
-            </div>
-          </div>
-          <div class="container form__container">
-            <form class="form">
-              <h2 class="form__title">Оставить отзыв</h2>
-              <div class="form__content">
-                <div class="form__user-info">
-                  <ul class="form__user-info-list">
-                    <li class="form__user-info-item">
-                      <label for="user-name" class="form__label">Ваше имя
-                        <input type="text" class="form__input-text" id="user-name" name="user-name" placeholder="Андрей">
-                      </label>
-                    </li>
-                    <li class="form__user-info-item">
-                      <label for="vk-link" class="form__label">Ссылка на профиль VK
-                        <input type="text" class="form__input-text" id="vk-link" name="vk-link" placeholder="vk.com/example">
-                      </label>
-                    </li>
-                  </ul>
-                </div>
-                <div class="form__review-text">
-                  <label for="review-text" class="form__label">Текст отзыва
-                    <textarea class="form__textarea" id="review-text" name="review-text" rows="4">Мне понравилось</textarea>
-                  </label>
-                </div>
-                <div class="form__add-info">
-                  <div class="form__photo-info">
-                    <h3 class="form__photo-info-title">Отображать фото в отзыве?</h3>
-                    <div class="form__photo-info-content">
-                      <label for="photo-yes" class="form__label form__radio-item" tabindex="0">
-                        <input type="radio" class="form__input-radio" id="photo-yes" name="show-photo" value="yes" checked>
-                        <span class="form__radio-custom"></span>
-                        <span class="form__radio-custom-label">Да</span>
-                      </label>
-                      <label for="photo-no" class="form__label form__radio-item" tabindex="0">
-                        <input type="radio" class="form__input-radio" id="photo-no" name="show-photo" value="no">
-                        <span class="form__radio-custom"></span>
-                        <span class="form__radio-custom-label">Нет</span>
-                      </label>
-                    </div>
+            <div class="container form__container">
+              <form class="form">
+                <h2 class="form__title">Оставить отзыв</h2>
+                <div class="form__content">
+                  <div class="form__user-info">
+                    <ul class="form__user-info-list">
+                      <li class="form__user-info-item">
+                        <label for="user-name" class="form__label">Ваше имя
+                          <input type="text" class="form__input-text" id="user-name" name="user-name" placeholder="Андрей">
+                        </label>
+                      </li>
+                      <li class="form__user-info-item">
+                        <label for="vk-link" class="form__label">Ссылка на профиль VK
+                          <input type="text" class="form__input-text" id="vk-link" name="vk-link" placeholder="vk.com/example">
+                        </label>
+                      </li>
+                    </ul>
                   </div>
-                  <button type="submit" class="form__submit-btn">Отправить</button>
+                  <div class="form__review-text">
+                    <label for="review-text" class="form__label">Текст отзыва
+                      <textarea class="form__textarea" id="review-text" name="review-text" rows="4">Мне понравилось</textarea>
+                    </label>
+                  </div>
+                  <div class="form__add-info">
+                    <div class="form__photo-info">
+                      <h3 class="form__photo-info-title">Отображать фото в отзыве?</h3>
+                      <div class="form__photo-info-content">
+                        <label for="photo-yes" class="form__label form__radio-item" tabindex="0">
+                          <input type="radio" class="form__input-radio" id="photo-yes" name="show-photo" value="yes"
+                            checked>
+                          <span class="form__radio-custom"></span>
+                          <span class="form__radio-custom-label">Да</span>
+                        </label>
+                        <label for="photo-no" class="form__label form__radio-item" tabindex="0">
+                          <input type="radio" class="form__input-radio" id="photo-no" name="show-photo" value="no">
+                          <span class="form__radio-custom"></span>
+                          <span class="form__radio-custom-label">Нет</span>
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="form__submit-btn">Отправить</button>
+                  </div>
                 </div>
-              </div>
-            </form>
-          </div>
-        </main>
+              </form>
+            </div>
+          </main>
+        </div>
       </div>
 
       <footer class="footer">
@@ -210,36 +242,6 @@
               Автор работы: <a href="https://github.com/yasevplaton" class="rights__link">Ясев Платон</a></p>
           </div>
           <a href="main.html" class="logo footer__logo">Афродита</a>
-          <div class="socials">
-            <h3 class="socials__title">Наши социальные сети</h3>
-            <ul class="socials-list">
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon socials-item__icon--active socials-item__icon--vk"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon socials-item__icon--fb"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon  socials-item__icon--google"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon  socials-item__icon--twitter"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon socials-item__icon--mail"></div>
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </footer>
 

@@ -14,10 +14,27 @@
   <body>
 
     <div class="wrapper">
+      
       <div class="wrapper__container">
         <header class="header">
           <div class="container header__container">
             <a href="main.html" class="logo header__logo">Афродита</a>
+            <address class="contacts">
+              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
+              <div class="contacts__dropdown-schedule">
+                <button class="contacts__schedule-link">График работы</button>
+                <div class="contacts__dropdown-body">
+                  <p class="contacts__weekdays-time">пн-вс: 09:00-20:00</p>
+                  <p class="contacts__dinner-time">обед: 14:00-14:30
+                  </p>
+                </div>
+              </div>
+            </address>
+          </div>
+        </header>
+
+        <div class="container container--main-content">
+          <aside class="aside-content">
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
@@ -33,22 +50,73 @@
                 </li>
               </ul>
             </nav>
-            <address class="contacts">
-              <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-              <div class="contacts__dropdown-schedule">
-                <button class="contacts__schedule-link">График работы</button>
-                <div class="contacts__dropdown-body">
-                  <p class="contacts__weekdays-time">пн-вс: 09:00-20:00</p>
-                  <p class="contacts__dinner-time">обед: 14:00-14:30
-                  </p>
-                </div>
-              </div>
-            </address>
-          </div>
-        </header>
-
-        <main class="page">
-          <div class="container">
+            <section class="partners">
+              <h2 class="section-title section-title--aside">Партнёры</h2>
+              <ul class="partners__list">
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="../data/img/partners/lion.png" alt="Lion" class="partners__logo">
+                  </a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="../data/img/partners/atletica.png" alt="Атлетика" class="partners__logo">
+                  </a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="../data/img/partners/flamingo.png" alt="Фламинго" class="partners__logo">
+                  </a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="../data/img/partners/arni.png" alt="Arni" class="partners__logo">
+                  </a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="../data/img/partners/malibu.png" alt="Malibu" class="partners__logo">
+                  </a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link">
+                    <img src="../data/img/partners/grif.png" alt="Гриф" class="partners__logo">
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section class="socials">
+              <h3 class="socials__title">Наши социальные сети</h3>
+              <ul class="socials-list">
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon socials-item__icon--active socials-item__icon--vk"></div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon socials-item__icon--fb"></div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon  socials-item__icon--google"></div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon  socials-item__icon--twitter"></div>
+                  </a>
+                </li>
+                <li class="socials-item">
+                  <a href="#" class="socials-item__link">
+                    <div class="socials-item__icon socials-item__icon--mail"></div>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </aside>
+          <main class="page-content">
             <div class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
@@ -146,43 +214,8 @@
                 </li>
               </ul>
             </section>
-            <section class="partners">
-              <h2 class="section-title section-title--left-align">Партнёры</h2>
-              <ul class="partners__list">
-                <li class="partners__item">
-                  <a href="#" class="partners__link">
-                    <img src="../data/img/partners/flamingo.png" alt="Фламинго" class="partners__logo">
-                  </a>
-                </li>
-                <li class="partners__item">
-                  <a href="#" class="partners__link">
-                    <img src="../data/img/partners/malibu.png" alt="Malibu" class="partners__logo">
-                  </a>
-                </li>
-                <li class="partners__item">
-                  <a href="#" class="partners__link">
-                    <img src="../data/img/partners/lion.png" alt="Lion" class="partners__logo">
-                  </a>
-                </li>
-                <li class="partners__item">
-                  <a href="#" class="partners__link">
-                    <img src="../data/img/partners/arni.png" alt="Arni" class="partners__logo">
-                  </a>
-                </li>
-                <li class="partners__item">
-                  <a href="#" class="partners__link">
-                    <img src="../data/img/partners/grif.png" alt="Гриф" class="partners__logo">
-                  </a>
-                </li>
-                <li class="partners__item">
-                  <a href="#" class="partners__link">
-                    <img src="../data/img/partners/atletica.png" alt="Атлетика" class="partners__logo">
-                  </a>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </main>
+          </main>
+        </div>
       </div>
 
       <footer class="footer">
@@ -193,36 +226,6 @@
               Автор работы: <a href="https://github.com/yasevplaton" class="rights__link">Ясев Платон</a></p>
           </div>
           <a href="main.html" class="logo footer__logo">Афродита</a>
-          <div class="socials">
-            <h3 class="socials__title">Наши социальные сети</h3>
-            <ul class="socials-list">
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon socials-item__icon--active socials-item__icon--vk"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon socials-item__icon--fb"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon  socials-item__icon--google"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon  socials-item__icon--twitter"></div>
-                </a>
-              </li>
-              <li class="socials-item">
-                <a href="#" class="socials-item__link">
-                  <div class="socials-item__icon socials-item__icon--mail"></div>
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </footer>
 
