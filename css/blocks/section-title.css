@@ -10,6 +10,13 @@
 
 .section-title--left-align {
   text-align: left;
-  margin-top: 4px;
-  margin-bottom: 37px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.section-title--aside {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
 }

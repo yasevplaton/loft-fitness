@@ -6,12 +6,15 @@
 @import url('blocks/logo-image.css');
 @import url('blocks/header.css');
 @import url('blocks/logo.css');
+@import url('blocks/aside-content.css');
+@import url('blocks/page-content.css');
 @import url('blocks/menu.css');
 @import url('blocks/contacts.css');
 @import url('blocks/banner.css');
 @import url('blocks/breadcrumbs.css');
 @import url('blocks/section-title.css');
 @import url('blocks/features.css');
+@import url('blocks/news.css');
 @import url('blocks/latest-news.css');
 @import url('blocks/reviews.css');
 @import url('blocks/services.css');

@@ -1,0 +1,5 @@
+.aside-content {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+}

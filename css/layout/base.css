@@ -58,6 +58,10 @@ table {
 }
 
 .container {
-  max-width: 1060px;
+  max-width: 1160px;
   margin: 0 auto;
+}
+
+.container--main-content {
+  display: flex;
 }

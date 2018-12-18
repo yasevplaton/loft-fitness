@@ -1,3 +1,10 @@
+.socials {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .socials__title {
   font-size: 14px;
   font-weight: bold;
@@ -15,12 +22,11 @@
 .socials-item__icon {
   width: 20px;
   height: 20px;
-  background: #d0d0d0 center center no-repeat;
-  border-radius: 50%;
+  background: center center no-repeat;
 }
 
 .socials-item__icon:hover {
-  background-color: #f89513;
+  
 }
 
 .socials-item__icon--vk {

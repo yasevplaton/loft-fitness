@@ -1,5 +1,12 @@
+.menu {
+  margin-top: 37px;
+  align-self: center;
+  margin-right: 20px;
+}
+
 .menu__list {
   display: flex;
+  flex-direction: column;
 }
 
 .menu__item {
@@ -7,12 +14,12 @@
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+  margin-bottom: 20px;
 }
 
 .menu__item-link {
   color: inherit;
   text-decoration: inherit;
-  margin-left: 25px;
 }
 
 .menu__item-link--active {
