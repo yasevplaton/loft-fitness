@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: bounce .8s 1s both;
+  animation: bounce .8s 1s both cubic-bezier(0, 0.47, 0.36, 1.01);
 }
 
 @keyframes bounce {
