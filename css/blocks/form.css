@@ -65,6 +65,7 @@
   padding: 15px 10px;
   border: none;
   margin-top: 10px;
+  transition: .3s;
 }
 
 .form__textarea {
@@ -73,7 +74,7 @@
   padding: 10px;
   border: none;
   margin-top: 10px;
-  resize: none;
+  resize: vertical;
 }
 
 .form__add-info {

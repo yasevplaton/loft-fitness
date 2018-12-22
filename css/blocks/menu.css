@@ -16,6 +16,7 @@
   letter-spacing: 1.2px;
   margin-bottom: 20px;
   display: flex;
+  align-items: center;
 }
 
 .menu__link {
@@ -31,6 +32,7 @@
 .menu__icon {
   position: relative;
   margin-right: 18px;
+  margin-top: 5px;
 }
 
 .menu__icon:before {
