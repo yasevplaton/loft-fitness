@@ -34,6 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .3s;
 }
 
 .pagination__item:not(.pagination__item--active):hover {
@@ -58,17 +59,20 @@
   margin-left: -6px;
 }
 
-.pagination__prev {
+.pagination__prev,
+.pagination__next {
   width: 6px;
   height: 10px;
-  background: url('../../data/icons/prev-arrow.png') center center no-repeat;
+  background: url('../../data/icons/spritesheet.png') no-repeat;
+}
+
+.pagination__prev {
+  background-position: -142px -5px;
   margin-top: 8px;
   margin-left: 20px;
 }
 
 .pagination__next {
-  width: 6px;
-  height: 10px;
-  background: url('../../data/icons/next-arrow.png') center center no-repeat;
+  background-position: -126px -5px;
   margin-top: 8px;
 }

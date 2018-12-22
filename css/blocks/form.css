@@ -105,19 +105,20 @@
   border-radius: 50%;
   margin-right: 5px;
   position: relative;
+  background-image: linear-gradient(to top, #ededed, #ffffff);
 }
 
 .form__radio-custom:after {
   content: "";
   position: absolute;
-  display: none;
-  width: 8px;
-  height: 8px;
+  width: 0;
+  height: 0;
   background-color: #f89513;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+  transition: .3s;
 }
 
 .form__input-radio:checked + .form__radio-custom {
@@ -125,7 +126,8 @@
 }
 
 .form__input-radio:checked + .form__radio-custom:after {
-  display: block;
+  width: 8px;
+  height: 8px;
 }
 
 .form__input-radio:checked ~ .form__radio-custom-label {
@@ -142,6 +144,7 @@
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+  transition: .3s;
 }
 
 .form__submit-btn:hover {

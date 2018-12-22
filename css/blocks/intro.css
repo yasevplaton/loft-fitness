@@ -62,9 +62,10 @@
   letter-spacing: 1.2px;
   text-align: center;
   padding: 17px 21px;
-  background-color: #1c1f1d;
+  background-color: #f89513;
+  transition: .3s;
 }
 
 .intro__link:hover {
-  background-color: #f89513;
+  background-color: #1c1f1d;
 }

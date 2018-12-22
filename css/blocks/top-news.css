@@ -27,4 +27,9 @@
   width: 170.1px;
   opacity: .8;
   margin-top: 20px;
+  transition: .3s;
+}
+
+.top-news__link:hover .top-news__img {
+  opacity: 1;
 }

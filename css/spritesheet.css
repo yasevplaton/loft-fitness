@@ -1,0 +1,83 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -5px -5px;
+}
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -21px -5px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -46px -5px;
+}
+
+.sprite-main-page-icon {
+    width: 19px;
+    height: 14px;
+    background-position: -68px -5px;
+}
+
+.sprite-main-page-icon_hover {
+    width: 19px;
+    height: 14px;
+    background-position: -97px -5px;
+}
+
+.sprite-next-arrow {
+    width: 6px;
+    height: 10px;
+    background-position: -126px -5px;
+}
+
+.sprite-prev-arrow {
+    width: 6px;
+    height: 10px;
+    background-position: -142px -5px;
+}
+
+.sprite-reviews-page-icon {
+    width: 20px;
+    height: 18px;
+    background-position: -158px -5px;
+}
+
+.sprite-reviews-page-icon_hover {
+    width: 20px;
+    height: 18px;
+    background-position: -188px -5px;
+}
+
+.sprite-service-page-icon {
+    width: 19px;
+    height: 14px;
+    background-position: -218px -5px;
+}
+
+.sprite-service-page-icon_hover {
+    width: 19px;
+    height: 14px;
+    background-position: -247px -5px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -276px -5px;
+}
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -297px -5px;
+}
